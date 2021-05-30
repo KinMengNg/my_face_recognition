@@ -1,0 +1,13 @@
+V1.0 	- Base
+V1.1 	- Added the options at the start of the program, reduce manual tweaking in the code
+V1.2 	- Added the encodings-to-name at the end of the program, so runs through all new unknown faces at the end and assigns them to a person
+	(Suitable if you just want to leave it running, and assign the unknown faces at the end of the day)
+V1.3 	- Modified encodings-to-name by putting it inside the loop thus making the update instantaneous without ending the program
+	(suitable if you want to assign the faces and update the database imideaitely)
+	- Used 'with open(....) as pkl_file', stops some errors with shutil (Still not fixed in v1.2)
+V1.3.1	- Added pop up images when prompting the ID in a GUI box (pysimplegui)
+V1.4	- Added TTS to greet the face seen
+V1.5	- Attendance system
+V1.5.01	- GUI
+V1.5.1	- Improvement to attendance system (Made by Ansel)
+
